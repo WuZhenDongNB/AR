@@ -27,7 +27,7 @@
     
     self.glView = [[OpenGLView alloc] initWithFrame:self.view.bounds];
     self.glView.imageKey = @"dongdong";
-    
+    NSLog(@"hahah ");
     [self.view addSubview:self.glView];
     [self.glView setOrientation:[UIApplication sharedApplication].statusBarOrientation];
        
